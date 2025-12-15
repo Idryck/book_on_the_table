@@ -1,0 +1,30 @@
+{
+  "name": "book_on_the_table",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Idryck/book_on_the_table#readme",
+  "bugs": {
+    "url": "https://github.com/Idryck/book_on_the_table/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Idryck/book_on_the_table.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "lint: check": "prettier --check .",
+    "lint: fix": "prettier --write ."
+  },
+  "dependencies": {
+    "next": "^16.0.10",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.7.4"
+  }
+}
